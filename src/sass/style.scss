@@ -2,8 +2,6 @@
 @import "base/_mixins.scss";
 @import "base/variables";
 
-
-
 * {
     font-family: 'MuseoModerno', sans-serif;
     box-sizing: border-box;
@@ -15,8 +13,7 @@
 }
 
 // blocks css
-
 @import "blocks/_promo.scss";
 @import "blocks/_header.scss";
-
 @import "blocks/buttons";
+@import "_media.scss";
